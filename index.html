@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivaplast Reciclagem</title>
+    <meta name="description" content="Site oficial da Vivaplast Reciclagem, indústria focada em economia circular em Braço do Norte.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="min-h-screen bg-stone-50 font-sans text-stone-900 selection:bg-emerald-200">
+
+    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img src="vivaplasttransparente.png" alt="Vivaplast Logo" class="h-20 w-auto object-contain" />
+            </div>
+            <div class="hidden md:flex gap-8 text-sm font-semibold text-stone-600 uppercase tracking-wider">
+                <a href="#sobre" class="hover:text-emerald-600 transition-colors">Sobre Nós</a>
+                <a href="#processo" class="hover:text-emerald-600 transition-colors">O Processo</a>
+                <a href="#impacto" class="hover:text-emerald-600 transition-colors">Impacto</a>
+                <a href="#contato" class="hover:text-emerald-600 transition-colors">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative bg-emerald-950 text-white overflow-hidden">
+        <div class="absolute inset-0">
+            <img 
+                src="https://picsum.photos/seed/recycling-plastic-factory/1920/1080?blur=4" 
+                alt="Reciclagem de plástico" 
+                class="w-full h-full object-cover opacity-40 mix-blend-overlay"
+                referrerpolicy="no-referrer"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-emerald-950 via-transparent to-transparent"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col items-center text-center">
+            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-800/50 border border-emerald-500/30 text-emerald-100 text-sm font-medium mb-8 backdrop-blur-sm">
+                <i data-lucide="leaf" class="h-4 w-4"></i> Economia Circular
+            </span>
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-4xl leading-tight">
+                Transformando resíduos em <span class="text-emerald-400">novas possibilidades</span>
+            </h1>
+            <p class="text-lg md:text-xl text-emerald-100/90 max-w-2xl mb-12 font-medium">
+                Indústria focada em sustentabilidade, produzindo resinas regeneradas de alta qualidade para um futuro mais limpo.
+            </p>
+            <a href="#sobre" class="bg-emerald-500 hover:bg-emerald-400 text-white px-8 py-4 rounded-full font-semibold transition-all flex items-center gap-2 shadow-lg shadow-emerald-900/50 hover:shadow-emerald-500/20 hover:-translate-y-0.5">
+                Conheça a Vivaplast <i data-lucide="arrow-right" class="h-5 w-5"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-8 text-stone-900 tracking-tight">Sobre a Vivaplast</h2>
+                    <div class="space-y-6 text-lg text-stone-600 leading-relaxed">
+                        <p>
+                            Sediada em <strong class="text-stone-900">Braço do Norte</strong>, a Vivaplast é uma indústria focada em economia circular. Nossa missão é dar uma nova vida aos plásticos que seriam descartados.
+                        </p>
+                        <p>
+                            Nós transformamos resíduos plásticos, como <strong class="text-stone-900">PE (Polietileno)</strong> e <strong class="text-stone-900">PP (Polipropileno)</strong>, em resinas regeneradas (pellets) de altíssima qualidade.
+                        </p>
+                        <p>
+                            Basicamente, pegamos o descarte industrial e pós-consumo, processamos tudo com tecnologia e responsabilidade, e devolvemos para o mercado como matéria-prima pronta para virar novos produtos. Assim, evitamos que esse plástico pare no meio ambiente.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <img src="https://picsum.photos/seed/factory-green-eco/600/800" alt="Fábrica" class="rounded-3xl object-cover h-full w-full shadow-2xl shadow-stone-200" referrerpolicy="no-referrer" />
+                    <img src="https://picsum.photos/seed/plastic-pellets-green/600/800" alt="Pellets de plástico" class="rounded-3xl object-cover h-full w-full shadow-2xl shadow-stone-200 mt-12" referrerpolicy="no-referrer" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="processo" class="py-24 bg-stone-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-4xl font-bold mb-4 text-stone-900 tracking-tight">Nosso Ciclo</h2>
+                <p class="text-lg text-stone-600">Como transformamos o descarte em matéria-prima de excelência.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-[2rem] shadow-sm border border-stone-200/60 hover:shadow-md transition-shadow">
+                    <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mb-8">
+                        <i data-lucide="recycle" class="h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-stone-900">1. Coleta</h3>
+                    <p class="text-stone-600 leading-relaxed">Recebemos o descarte industrial e pós-consumo de plásticos PE e PP, iniciando o ciclo da economia circular.</p>
+                </div>
+                
+                <div class="bg-white p-10 rounded-[2rem] shadow-sm border border-stone-200/60 hover:shadow-md transition-shadow">
+                    <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mb-8">
+                        <i data-lucide="factory" class="h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-stone-900">2. Processamento</h3>
+                    <p class="text-stone-600 leading-relaxed">O material é rigorosamente selecionado, moído, lavado e extrusado com tecnologia de ponta.</p>
+                </div>
+                
+                <div class="bg-white p-10 rounded-[2rem] shadow-sm border border-stone-200/60 hover:shadow-md transition-shadow">
+                    <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mb-8">
+                        <i data-lucide="leaf" class="h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-stone-900">3. Nova Vida</h3>
+                    <p class="text-stone-600 leading-relaxed">Transformamos em pellets de alta qualidade, prontos para a indústria fabricar novos produtos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-sm font-semibold mb-6">
+                    <i data-lucide="globe-2" class="h-4 w-4"></i> Nosso Propósito
+                </span>
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-stone-900 tracking-tight">
+                    Transformando o mundo em um <span class="text-emerald-600">lugar melhor</span>
+                </h2>
+                <p class="text-lg text-stone-600 leading-relaxed">
+                    A poluição plástica é um dos maiores desafios do nosso tempo. Ao reciclar, não apenas limpamos a natureza e os oceanos, mas também damos uma nova vida a materiais que levariam séculos para se decompor.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div class="order-2 md:order-1 space-y-8">
+                    <div class="flex gap-6">
+                        <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                            <i data-lucide="droplets" class="h-7 w-7"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2 text-stone-900">Proteção dos Oceanos</h3>
+                            <p class="text-stone-600 leading-relaxed">
+                                Milhões de toneladas de plástico acabam nos oceanos todos os anos, ameaçando a vida marinha. A Vivaplast atua interceptando e reprocessando esses materiais antes que cheguem às águas, preservando nossos ecossistemas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-6">
+                        <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+                            <i data-lucide="leaf" class="h-7 w-7"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2 text-stone-900">Preservação da Natureza</h3>
+                            <p class="text-stone-600 leading-relaxed">
+                                O descarte irregular contamina o solo e as florestas. Através da economia circular, evitamos a extração de novos recursos naturais e reduzimos a pegada de carbono, transformando um problema ambiental em solução industrial.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-1 md:order-2 grid grid-cols-2 gap-4">
+                    <img src="https://picsum.photos/seed/ocean-plastic-cleanup/600/800" alt="Limpeza dos oceanos" class="rounded-[2rem] object-cover h-full w-full shadow-xl shadow-stone-200/50" referrerpolicy="no-referrer" />
+                    <img src="https://picsum.photos/seed/nature-forest-clean/600/800" alt="Natureza preservada" class="rounded-[2rem] object-cover h-full w-full shadow-xl shadow-stone-200/50 mt-12" referrerpolicy="no-referrer" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-emerald-950 rounded-[2.5rem] overflow-hidden shadow-2xl shadow-emerald-900/20">
+                <div class="grid lg:grid-cols-2">
+                    <div class="p-12 md:p-20 text-white flex flex-col justify-center">
+                        <h2 class="text-4xl font-bold mb-10 tracking-tight">Fale Conosco</h2>
+                        
+                        <div class="space-y-8 mb-12">
+                            <div class="flex items-start gap-5">
+                                <div class="w-12 h-12 rounded-full bg-emerald-800/50 flex items-center justify-center shrink-0">
+                                    <i data-lucide="map-pin" class="h-6 w-6 text-emerald-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-1">Localização</h4>
+                                    <p class="text-emerald-100/80 leading-relaxed">Braço do Norte, Santa Catarina<br/>Brasil</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-5">
+                                <div class="w-12 h-12 rounded-full bg-emerald-800/50 flex items-center justify-center shrink-0">
+                                    <i data-lucide="phone" class="h-6 w-6 text-emerald-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-1">Telefone / WhatsApp</h4>
+                                    <p class="text-emerald-100/80 leading-relaxed">(48) 99931-0939</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-5">
+                                <div class="w-12 h-12 rounded-full bg-emerald-800/50 flex items-center justify-center shrink-0">
+                                    <i data-lucide="mail" class="h-6 w-6 text-emerald-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg mb-1">E-mail</h4>
+                                    <p class="text-emerald-100/80 leading-relaxed">jucemar@vivaplast.com.br</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold text-lg mb-5">Redes Sociais</h4>
+                            <div class="flex gap-4">
+                                <a href="https://www.facebook.com/p/Vivaplast-100057493148360/" target="_blank" rel="noopener noreferrer" class="w-14 h-14 rounded-full bg-emerald-800/50 flex items-center justify-center hover:bg-emerald-700 transition-colors border border-emerald-700/50">
+                                    <i data-lucide="facebook" class="h-6 w-6 text-emerald-100"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="min-h-[400px] lg:min-h-full bg-stone-200 relative">
+                        <iframe 
+                            src="https://maps.google.com/maps?q=Vivaplast%20Com.e%20Ind.de%20Recicl%C3%A1veis%20Ltda,%20Bra%C3%A7o%20do%20Norte&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                            width="100%" 
+                            height="100%" 
+                            style="border: 0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="absolute inset-0 w-full h-full"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-stone-950 text-stone-400 py-12 text-center border-t border-stone-900">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col items-center gap-6">
+            <div class="flex items-center gap-2">
+                <img src="vivaplasttrasnaprente.png" alt="Vivaplast Logo" class="h-16 w-auto object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all" />
+            </div>
+            <p class="text-sm text-stone-500">
+                © <script>document.write(new Date().getFullYear())</script> Vivaplast Reciclagem. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
